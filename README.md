@@ -2,3 +2,9 @@
 
 ## discovery
 > Eureka discovery server, responsible for registering all microservices available.
+
+## api.account
+> Account management microservice
+
+## api.users
+> Users microservice
