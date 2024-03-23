@@ -1,0 +1,14 @@
+### Variables 
+@apiGateway = http://localhost:8082
+
+### GET users
+GET {{apiGateway}}/USERS-API/users/status/check HTTP/1.1
+
+### GET users
+GET {{apiGateway}}/users-api/users/status/check HTTP/1.1
+
+### GET users
+GET {{apiGateway}}/users/status/check HTTP/1.1
+
+### GET users
+GET {{apiGateway}}/my-custom/users/check HTTP/1.1

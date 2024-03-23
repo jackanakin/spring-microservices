@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ApiGatewayApplication",
+            "request": "launch",
+            "mainClass": "br.kuhn.dev.photoapp.apigateway.ApigatewayApplication",
+            "projectName": "apigateway"
+        },
+        {
+            "type": "java",
+            "name": "AccountApplication",
+            "request": "launch",
+            "mainClass": "br.kuhn.dev.photoapp.api.account.Application",
+            "projectName": "api.account"
+        },
+        {
+            "type": "java",
+            "name": "UsersApplication",
+            "request": "launch",
+            "mainClass": "br.kuhn.dev.photoapp.api.users.Application",
+            "projectName": "api.users"
+        },
+        {
+            "type": "java",
+            "name": "DiscoveryApplication",
+            "request": "launch",
+            "mainClass": "br.kuhn.dev.photoapp.discovery.DiscoveryApplication",
+            "projectName": "discovery"
+        }
+    ]
+}
