@@ -51,7 +51,7 @@ public class WebSecurity {
 
 		http.authorizeHttpRequests((authz) -> authz
 		.requestMatchers(new AntPathRequestMatcher("/users", "POST")).permitAll()
-		.requestMatchers(new AntPathRequestMatcher("/users/**", "POST")).permitAll()
+		// .requestMatchers(new AntPathRequestMatcher("/users/**", "POST")).permitAll()
 		.requestMatchers(new AntPathRequestMatcher("/h2-console/**")).permitAll())
 				.addFilter(authenticationFilter)
 				.authenticationManager(authenticationManager)
