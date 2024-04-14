@@ -35,6 +35,8 @@ Products Service 3 -> http://localhost:3003 -->
 
 ### Steps
 1. Add to application.properties
+2. Use eureka.instance.instance-id in services properties to distinct multiple instances
+3. Open http://localhost:8082/my-custom/users/check multiple times and check the port number change.
 
 ### Usage
 > Is case sensitive

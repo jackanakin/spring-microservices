@@ -12,3 +12,18 @@ GET {{apiGateway}}/users/status/check HTTP/1.1
 
 ### GET users
 GET {{apiGateway}}/my-custom/users/check HTTP/1.1
+
+> POST /users-api/users HTTP/1.1
+> Host: 192.168.3.16:8082
+> User-Agent: insomnia/2023.1.0
+> Content-Type: application/json
+> Accept: */*
+> Content-Length: 116
+
+| {
+|   	"firstName": "Jardel",
+|   	"lastName": "Kuhn",
+|   	"email": "jardelkuhn@gmail.com",
+|   	"password": "password1"
+| }
+
